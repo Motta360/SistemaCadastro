@@ -118,10 +118,11 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         areaDeTexto.setEditable(false);
         areaDeTexto.setColumns(20);
+        areaDeTexto.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         areaDeTexto.setRows(5);
         jScrollPane1.setViewportView(areaDeTexto);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, 320, 340));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, 390, 340));
 
         jButton1.setText("Cadastrar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -167,7 +168,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 ordemActionPerformed(evt);
             }
         });
-        getContentPane().add(ordem, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 150, -1));
+        getContentPane().add(ordem, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 180, 150, -1));
 
         jButton4.setText("Chamada");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -175,7 +176,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 420, 150, -1));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 420, 150, -1));
 
         jButton5.setText("Registro Chamada");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -183,7 +184,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 420, 150, -1));
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 420, 150, -1));
 
         jButton6.setText("Trasformar Em Excel");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -191,7 +192,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 300, 150, -1));
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 300, 150, -1));
 
         jButton7.setText("Adcionar por Excel");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -199,13 +200,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 jButton7ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 300, 150, -1));
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 300, 150, -1));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Controles Chamada");
         jLabel1.setToolTipText("");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 370, 330, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 370, 330, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -218,7 +219,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         getContentPane().add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         jSeparator4.setOrientation(javax.swing.SwingConstants.VERTICAL);
-        getContentPane().add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 90, 10, 510));
+        getContentPane().add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 90, 10, 510));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -231,26 +232,26 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Ações Diversas");
         jLabel4.setToolTipText("");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 100, 330, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 100, 330, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("Controles Excel");
         jLabel5.setToolTipText("");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 250, 330, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 250, 330, -1));
 
         jSeparator6.setOrientation(javax.swing.SwingConstants.VERTICAL);
         getContentPane().add(jSeparator6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 10, 510));
 
         jSeparator7.setOrientation(javax.swing.SwingConstants.VERTICAL);
-        getContentPane().add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 90, 10, 510));
-        getContentPane().add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 720, 10));
+        getContentPane().add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 100, 10, 510));
+        getContentPane().add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 720, 10));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("Ordenar Cadastro");
         jLabel6.setToolTipText("");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 140, 330, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 140, 330, -1));
 
         pack();
         setLocationRelativeTo(null);
